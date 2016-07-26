@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B565D981D41E2D0009DB3F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B565D971D41E2D0009DB3F4 /* User.swift */; };
+		6B565D9A1D41E2EF009DB3F4 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B565D991D41E2EF009DB3F4 /* Tweet.swift */; };
+		6B565D9C1D41E313009DB3F4 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B565D9B1D41E313009DB3F4 /* TwitterClient.swift */; };
+		6B565DA11D4227EF009DB3F4 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B565DA01D4227EF009DB3F4 /* TweetsViewController.swift */; };
+		6B565DA31D431CBE009DB3F4 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B565DA21D431CBE009DB3F4 /* TweetTableViewCell.swift */; };
+		6B565DA51D4383D8009DB3F4 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B565DA41D4383D8009DB3F4 /* AppHelper.swift */; };
+		6B59BD111D44A9A00021CFA9 /* NewTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59BD101D44A9A00021CFA9 /* NewTweetViewController.swift */; };
+		6B6168C31D3F502600D84287 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6168C21D3F502600D84287 /* LoginViewController.swift */; };
+		6B9299A81D4762680069EFFD /* TweetDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9299A71D4762680069EFFD /* TweetDetailTableViewCell.swift */; };
+		6BB8A47B1D45F98D00EBF611 /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB8A47A1D45F98D00EBF611 /* TweetDetailViewController.swift */; };
+		6BE0C42A1D3F4DF300DD760D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0C4291D3F4DF300DD760D /* AppDelegate.swift */; };
+		6BE0C42F1D3F4DF300DD760D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0C42D1D3F4DF300DD760D /* Main.storyboard */; };
+		6BE0C4311D3F4DF300DD760D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0C4301D3F4DF300DD760D /* Assets.xcassets */; };
+		6BE0C4341D3F4DF300DD760D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0C4321D3F4DF300DD760D /* LaunchScreen.storyboard */; };
+		C1499A6DE640FBA045590037 /* Pods_Bluebird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB2FA9239A05354C3CEC1FD /* Pods_Bluebird.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B565D971D41E2D0009DB3F4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6B565D991D41E2EF009DB3F4 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		6B565D9B1D41E313009DB3F4 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		6B565DA01D4227EF009DB3F4 /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		6B565DA21D431CBE009DB3F4 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		6B565DA41D4383D8009DB3F4 /* AppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		6B59BD101D44A9A00021CFA9 /* NewTweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTweetViewController.swift; sourceTree = "<group>"; };
+		6B6168C21D3F502600D84287 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B9299A71D4762680069EFFD /* TweetDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailTableViewCell.swift; sourceTree = "<group>"; };
+		6BB8A47A1D45F98D00EBF611 /* TweetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
+		6BE0C4261D3F4DF300DD760D /* Bluebird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluebird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE0C4291D3F4DF300DD760D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE0C42E1D3F4DF300DD760D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE0C4301D3F4DF300DD760D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE0C4331D3F4DF300DD760D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE0C4351D3F4DF300DD760D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB2FA9239A05354C3CEC1FD /* Pods_Bluebird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluebird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F8D0021B075225D50011BD /* Pods-Bluebird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluebird.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bluebird/Pods-Bluebird.release.xcconfig"; sourceTree = "<group>"; };
+		E344DD81A3F4308472C78D02 /* Pods-Bluebird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluebird.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bluebird/Pods-Bluebird.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE0C4231D3F4DF300DD760D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1499A6DE640FBA045590037 /* Pods_Bluebird.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B565D9D1D42260F009DB3F4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B6168C21D3F502600D84287 /* LoginViewController.swift */,
+				6B565DA01D4227EF009DB3F4 /* TweetsViewController.swift */,
+				6B59BD101D44A9A00021CFA9 /* NewTweetViewController.swift */,
+				6BB8A47A1D45F98D00EBF611 /* TweetDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6B565D9E1D42261B009DB3F4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B565D9B1D41E313009DB3F4 /* TwitterClient.swift */,
+				6B565DA41D4383D8009DB3F4 /* AppHelper.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		6B565D9F1D42262D009DB3F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B565D971D41E2D0009DB3F4 /* User.swift */,
+				6B565D991D41E2EF009DB3F4 /* Tweet.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6B9299A91D4765770069EFFD /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B565DA21D431CBE009DB3F4 /* TweetTableViewCell.swift */,
+				6B9299A71D4762680069EFFD /* TweetDetailTableViewCell.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		6BE0C41D1D3F4DF300DD760D = {
+			isa = PBXGroup;
+			children = (
+				6BE0C4281D3F4DF300DD760D /* Bluebird */,
+				6BE0C4271D3F4DF300DD760D /* Products */,
+				CEDDED3A1B48435CD2E07A6D /* Pods */,
+				D8CFABF0AFD058679615DDEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE0C4271D3F4DF300DD760D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0C4261D3F4DF300DD760D /* Bluebird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE0C4281D3F4DF300DD760D /* Bluebird */ = {
+			isa = PBXGroup;
+			children = (
+				6B9299A91D4765770069EFFD /* Custom Views */,
+				6B565D9F1D42262D009DB3F4 /* Models */,
+				6B565D9E1D42261B009DB3F4 /* API */,
+				6B565D9D1D42260F009DB3F4 /* View Controllers */,
+				6BE0C4291D3F4DF300DD760D /* AppDelegate.swift */,
+				6BE0C42D1D3F4DF300DD760D /* Main.storyboard */,
+				6BE0C4301D3F4DF300DD760D /* Assets.xcassets */,
+				6BE0C4321D3F4DF300DD760D /* LaunchScreen.storyboard */,
+				6BE0C4351D3F4DF300DD760D /* Info.plist */,
+			);
+			path = Bluebird;
+			sourceTree = "<group>";
+		};
+		CEDDED3A1B48435CD2E07A6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E344DD81A3F4308472C78D02 /* Pods-Bluebird.debug.xcconfig */,
+				A0F8D0021B075225D50011BD /* Pods-Bluebird.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8CFABF0AFD058679615DDEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2FA9239A05354C3CEC1FD /* Pods_Bluebird.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE0C4251D3F4DF300DD760D /* Bluebird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE0C4381D3F4DF300DD760D /* Build configuration list for PBXNativeTarget "Bluebird" */;
+			buildPhases = (
+				620A8A2BF19A33A03B39DEA8 /* 📦 Check Pods Manifest.lock */,
+				6BE0C4221D3F4DF300DD760D /* Sources */,
+				6BE0C4231D3F4DF300DD760D /* Frameworks */,
+				6BE0C4241D3F4DF300DD760D /* Resources */,
+				17B008F6E5D702DDBFCEB5EC /* 📦 Embed Pods Frameworks */,
+				8D385641EE835E4E518FE476 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluebird;
+			productName = Bluebird;
+			productReference = 6BE0C4261D3F4DF300DD760D /* Bluebird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE0C41E1D3F4DF300DD760D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nhung Huynh";
+				TargetAttributes = {
+					6BE0C4251D3F4DF300DD760D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BE0C4211D3F4DF300DD760D /* Build configuration list for PBXProject "Bluebird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE0C41D1D3F4DF300DD760D;
+			productRefGroup = 6BE0C4271D3F4DF300DD760D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE0C4251D3F4DF300DD760D /* Bluebird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE0C4241D3F4DF300DD760D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE0C4341D3F4DF300DD760D /* LaunchScreen.storyboard in Resources */,
+				6BE0C4311D3F4DF300DD760D /* Assets.xcassets in Resources */,
+				6BE0C42F1D3F4DF300DD760D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B008F6E5D702DDBFCEB5EC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bluebird/Pods-Bluebird-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620A8A2BF19A33A03B39DEA8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D385641EE835E4E518FE476 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bluebird/Pods-Bluebird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE0C4221D3F4DF300DD760D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9299A81D4762680069EFFD /* TweetDetailTableViewCell.swift in Sources */,
+				6B565D981D41E2D0009DB3F4 /* User.swift in Sources */,
+				6B565D9A1D41E2EF009DB3F4 /* Tweet.swift in Sources */,
+				6B6168C31D3F502600D84287 /* LoginViewController.swift in Sources */,
+				6B565DA51D4383D8009DB3F4 /* AppHelper.swift in Sources */,
+				6B565DA11D4227EF009DB3F4 /* TweetsViewController.swift in Sources */,
+				6B565D9C1D41E313009DB3F4 /* TwitterClient.swift in Sources */,
+				6B565DA31D431CBE009DB3F4 /* TweetTableViewCell.swift in Sources */,
+				6B59BD111D44A9A00021CFA9 /* NewTweetViewController.swift in Sources */,
+				6BE0C42A1D3F4DF300DD760D /* AppDelegate.swift in Sources */,
+				6BB8A47B1D45F98D00EBF611 /* TweetDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BE0C42D1D3F4DF300DD760D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE0C42E1D3F4DF300DD760D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BE0C4321D3F4DF300DD760D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE0C4331D3F4DF300DD760D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE0C4361D3F4DF300DD760D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE0C4371D3F4DF300DD760D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE0C4391D3F4DF300DD760D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E344DD81A3F4308472C78D02 /* Pods-Bluebird.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bluebird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nhung.huynh.Bluebird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BE0C43A1D3F4DF300DD760D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F8D0021B075225D50011BD /* Pods-Bluebird.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bluebird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nhung.huynh.Bluebird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE0C4211D3F4DF300DD760D /* Build configuration list for PBXProject "Bluebird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE0C4361D3F4DF300DD760D /* Debug */,
+				6BE0C4371D3F4DF300DD760D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE0C4381D3F4DF300DD760D /* Build configuration list for PBXNativeTarget "Bluebird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE0C4391D3F4DF300DD760D /* Debug */,
+				6BE0C43A1D3F4DF300DD760D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE0C41E1D3F4DF300DD760D /* Project object */;
+}
